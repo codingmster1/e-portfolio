@@ -1,5 +1,6 @@
 /**/
 *{
+    font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -44,4 +45,18 @@ nav{
     color: #242424;
     text-decoration: none;
     font-weight: 700;
+}
+
+.nav_link--anchor-primary
+{
+    background-color: #6030b1;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+    transition: all 300ms ease;
+}
+
+.nav_link--anchor-primary:hover
+{
+    background-color: #5d3eff;
 }
