@@ -22,9 +22,20 @@ li
     list-style-type: none;
 }
 
+.flex 
+{
+    display: flex;
+}
 .flex-1
 {
     flex: 1;
+}
+
+.row
+{
+    width: 100%;
+    max-width:800px;
+    margin: 0 auto;
 }
 
 /* navigation bar */
@@ -82,4 +93,12 @@ nav{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.about-me_info--container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
