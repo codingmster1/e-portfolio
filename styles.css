@@ -22,6 +22,11 @@ li
     list-style-type: none;
 }
 
+.flex-1
+{
+    flex: 1;
+}
+
 /* navigation bar */
 
 nav{
@@ -75,4 +80,6 @@ nav{
 #about-me
 {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
