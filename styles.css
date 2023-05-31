@@ -33,7 +33,7 @@ a
     position: relative;
 }
 
-.link_hover-effect:after 
+.link__hover-effect:after 
 {
     content: "";
     position: absolute;
@@ -45,10 +45,20 @@ a
     transition: all 300ms ease;
 }
 
-.link_hover-effect:hover:after 
+.link__hover-effect:hover:after 
 {
     width: 100%;
     left: 0;
+}
+
+.link__hover-effect--white:after
+{
+    background-color: #fff;
+}
+
+.link__hover-effect--black:after
+{
+    background-color: black;
 }
 
 li
