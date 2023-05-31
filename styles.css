@@ -477,6 +477,11 @@ footer
     }
 }
 
+/* Smaller phone screens */ 
+
 @media (max-width: 480px) {
-    
+    .nav__link:not(:last-child) {
+        display: none;
+    }
+
 }
