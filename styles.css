@@ -354,7 +354,7 @@ footer
 
 .footer__logo 
 {
-    margin-bottom: 20px;
+    
 }
 
 .footer__social--list 
@@ -389,3 +389,13 @@ footer
 }
 
 
+.footer__logo--popper
+{
+    position: absolute;
+}
+
+.footer__anchor
+{
+    margin-bottom: 20px;
+    position: relative;
+}
