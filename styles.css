@@ -22,6 +22,11 @@ p {
     font-size: 16px;
 }
 
+a 
+{
+    text-decoration: none;
+}
+
 li
 {
     list-style-type: none;
@@ -244,6 +249,11 @@ nav{
     margin-bottom: 135px;
 }
 
+.project:last-child 
+{
+    margin-bottom: 40px;
+}
+
 .project__img
 {
     width: 100%;
@@ -332,5 +342,47 @@ nav{
 .project__description--link
 {
     text-align: left;
+    color: #fff;
+}
+
+/* FOOTER */
+
+footer 
+{
+    background-color: #242424;
+}
+
+.footer__logo 
+{
+    margin-bottom: 20px;
+}
+
+.footer__social--list 
+{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.footer__row 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 0;
+}
+
+.footer__logo--img
+{
+    width: 70px;
+    height: 70px;
+}
+
+.footer__social--link,
+.footer__copyright 
+{
     color: #fff;
 }
