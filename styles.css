@@ -484,4 +484,14 @@ footer
         display: none;
     }
 
+    .project__description--para
+    {
+        display: none;
+    }
+
+    .about-me__img--container
+    {
+        display: none;
+    }
+
 }
